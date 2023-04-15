@@ -15,5 +15,5 @@ let persona2 = {
 //el metodo persona1.nombreCompleto con los datos del persona2
 console.log( persona1.nombreCompleto('Lic', '66887711') );
 
-let arreglo = ['Ing','55443322'];
+let arreglo = ['Ing','55443322']; //El arreglo se pasa como segundo parametro
 console.log( persona1.nombreCompleto.apply( persona2, arreglo) );
